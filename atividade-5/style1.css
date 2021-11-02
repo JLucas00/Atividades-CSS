@@ -1,0 +1,129 @@
+*{
+   margin: 0%;
+   padding: 0%;
+   box-sizing: border-box;
+}
+
+header{
+   width: 100vw;
+   height: 15vh;
+   padding-top: 3vh;
+   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   text-align: center;
+   font-size: 25px;
+   text-shadow: 5px 5px 5px rgb(255, 255, 255), 1px 1px 1px white;
+   border-bottom: 5px ridge white;
+   box-shadow: inset 0 0 3em black;
+   background-color: rgb(116, 80, 43);
+}
+main{
+   display: flex;
+   justify-content: space-between;
+   width: 100vw;
+   height: 85vh;
+   padding-left: 1vw;
+   padding-right: 1vw;
+   background-color: black;
+   background-image: url(https://data2.1freewallpapers.com/download/sons-of-anarchy-tv-series-logo.jpg);
+   background-size: contain;
+   background-position: center;
+   background-repeat:no-repeat;
+}
+
+section{
+   display: flex;
+
+   margin-bottom: 2.5vh;
+   padding: 10px;
+   width: 35vw;
+   height: 15vh;
+   border: 5px dashed black;
+   border-radius: 10% 10%;
+   overflow: auto;
+   background-color: rgb(226, 204, 156, 0.6);
+}
+p {
+   font-family:cursive;
+   color: blanchedalmond;
+}
+div h1{
+   font-family: cursive;
+}
+.font-style{
+   font-style: oblique;
+}
+.text{
+   flex: 1;
+}
+.font-weight-decoration{
+   font-weight: bolder;
+   text-decoration: underline dotted rgb(255, 253, 253);
+}
+.flex{
+   display: flex;
+   justify-content: center;
+}
+.center{
+   display: flex;
+   justify-content:space-around;
+}
+
+
+#sobre{
+   color: rgb(0, 0, 0);
+}
+#jax{
+   margin-right: 30px;
+   width: 90px;
+   height: 90px;
+   border: 1px solid burlywood;
+   border-radius: 50%;
+   background-image: url(http://pm1.narvii.com/6442/586acfc28457ca8b4d219cd87671c113c5cee1f7_00.jpg);
+   background-size: cover;
+}
+#tara{
+   margin-right: 30px;
+   width: 90px;
+   height: 90px;
+   border: 1px solid burlywood;
+   border-radius: 50%;
+   background-image: url(http://3.bp.blogspot.com/-1Y3T6KOGB-c/T3S-IjP9qHI/AAAAAAAAG4s/Hc8UiYmbzWA/s640/Screen+shot+2012-03-29+at+8.54.33+PM.png);
+   background-size: cover;
+}
+#clay{
+   margin-right: 30px;
+   width: 90px;
+   height: 90px;
+   border: 1px solid burlywood;
+   border-radius: 50%;
+   background-image: url(https://blog.oldsiller.com.br/wp-content/uploads/2020/09/jax-teller-sons-of-anarchy-filhos-da-anarquia-old-siller-estilo-10.jpg);
+   background-size: cover;
+}
+#gemma{
+   margin-right: 30px;
+   width: 90px;
+   height: 90px;
+   border: 1px solid burlywood;
+   border-radius: 50%;
+   background-image: url(https://miro.medium.com/max/1838/0*qY2oJ7Zf-aGKX2iw.jpg);
+   background-size: cover;
+}
+#kenji{
+   margin-right: 30px;
+   width: 90px;
+   height: 90px;
+   border: 1px solid burlywood;
+   border-radius: 50%;
+   background-image: url(kenji.jpg);
+   background-size: cover;
+}
+fieldset{
+   width: 35vw;
+   height: 85vh;
+   padding: 20px;
+   padding-left: 35px;
+   border: 5px dashed black;
+   border-radius: 10% 10%;
+   overflow: visible;
+   background-color: rgb(226, 204, 156, 0.4);
+}

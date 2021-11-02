@@ -1,0 +1,51 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+section{
+   display: flex;
+   flex-direction: column;
+   flex:1;
+   justify-content: center;
+   align-items: center;
+
+}
+section div{
+   display: flex;
+   flex-direction: row;
+   flex:1;
+   justify-content: center;
+   align-items: center;
+}
+
+body div{
+   display: flex;
+   flex-direction: row;
+   height: 100vh;
+   background-color: rgb(67, 20, 235) ;
+   align-items: center;
+   justify-content: center;
+}
+
+.divisao0{
+   width: 200px;
+   height: 200px;
+   background-image: url(https://animesonlineup.com/wp-content/uploads/2020/08/bob-esponja-episodio-4-bolhas-de-sabao.jpg);
+   background-position: center;
+   background-size: contain;
+   background-repeat: no-repeat;
+}
+
+.bolha{
+   width: 100px;
+   height: 100px;
+   background-color:rgba(11, 210, 236, 0.8) ;
+   background-image: url(https://cdn.pixabay.com/photo/2016/11/19/21/31/bubble-1841301_960_720.png) ;
+   background-size: contain;
+   border-radius: 50%;
+}
+.flex{
+   display: flex;
+}

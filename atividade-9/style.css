@@ -1,0 +1,73 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+header{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 100vw;
+   height: 20vh;
+   background-color: black;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-weight: bold;
+   color: whitesmoke;
+
+}
+aside{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   padding-left: 30px;
+   width: 20vw;
+   height: 80vh;
+   background-color: wheat;
+
+}
+aside>div{
+   margin: 10px;
+}
+body{
+   background-color: darkgrey;
+   max-height: max-content;
+}
+main{
+   width: 80vw;
+   min-height: 80vh;
+   max-height: max-content;
+   margin: 0px 0px 0px 10px;
+   background-color: whitesmoke;
+}
+section{
+   display: flex;
+   flex-wrap: wrap;
+   margin: 20px;
+}
+section div{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   width: 200px;
+   margin: 10px;
+}
+section img{
+   margin-bottom: 20px;
+   width: 150px;
+}
+.flex{
+   display: flex;
+}
+
+.flexstar{
+   display: flex;
+   flex-wrap: wrap;
+}
+.star{
+   width: 20px;
+}
+.preco{
+   font-family: fantasy;
+   font-size: 3rem;
+}

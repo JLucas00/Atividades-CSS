@@ -1,0 +1,23 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+body{
+   background-image: url(sky.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+#circle1{
+   width: 200px;
+   height: 200px;
+   position:relative;
+   left: 20vw;
+   top: 10vh;
+   border: 5px solid rgb(0, 49, 68);
+   border-radius: 50%;
+   box-shadow: 0 0 2em whitesmoke, 0 0 3em rgb(100, 189, 248), 0 0 4em yellow;
+   background-image: url(discovoador.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+}

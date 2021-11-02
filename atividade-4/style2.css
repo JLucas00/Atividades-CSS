@@ -1,0 +1,201 @@
+*{
+   margin: 0%;
+   padding: 0%;
+   box-sizing: border-box;
+}
+body{
+   background-color: rgb(226, 226, 49);
+   margin: 50px;
+   justify-content: space-around;
+   align-items:center;
+}
+body div{
+   display: flex;
+   flex-direction: row;
+}
+body div div{
+   background-color: cadetblue;
+   margin: 50px;
+}
+#borda1{
+   flex: 1;
+   width: 15%;
+   height: 10vh;
+   border-style: dashed;
+   border-width: 10px;
+}
+#borda2{
+   
+   flex: 1;
+   width: 15%;
+   height: 10vh;
+   border-style: dotted;
+   border-width: 10px;
+}
+#borda3{
+   
+   flex: 1;
+   width: 15%;
+   height: 10vh;
+   border-style: inset;
+   border-width: 10px;
+}
+#borda4{
+   
+   flex: 1;
+   width: 15%;
+   height: 10vh;
+   border-style: none;
+   border-width: 10px;
+}
+#borda5{
+   
+   flex: 1;
+   width: 15%;
+   height: 10vh;
+   border-style: solid;
+   border-width: 10px;
+}
+#borda6{
+   
+   flex: 1;
+   width: 15%;
+   height: 10vh;
+   border-style: ridge;
+   border-width: 10px;
+}
+#borda7{
+   flex: 1;
+   width: 15%;
+   height: 10vh;
+   border-style:double;
+   border-width: 10px;
+}
+#borda8{
+   flex: 1;
+   width: 15%;
+   height: 10vh;
+   border-style: dashed;
+   border-width: 10px 1em;
+}
+#borda9{
+   
+   flex: 1;
+   width: 15%;
+   height: 10vh;
+   border-style: dotted;
+   border-width: 10px 1em;
+}
+#borda10{
+   
+   flex: 1;
+   width: 15%;
+   height: 10vh;
+   border-style: inset;
+   border-width: 10px 1em;
+}
+
+#borda11{
+   
+   flex: 1;
+   width: 15%;
+   height: 10vh;
+   border-style: solid;
+   border-width: 10px 1em;
+}
+#borda12{
+   
+   flex: 1;
+   width: 15%;
+   height: 10vh;
+   border-style: ridge;
+   border-width: 10px 1em;
+}
+#borda13{
+   flex: 1;
+   width: 15%;
+   height: 10vh;
+   border-style:double;
+   border-width: 10px 1em;
+}
+#borda14{
+   flex: 1;
+   width: 15%;
+   height: 10vh;
+   border: 6px dashed rgb(140, 26, 233);
+}
+#borda15{
+   flex: 1;
+   width: 15%;
+   height: 10vh;
+   border: 6px dotted rgb(200, 204, 201);
+}
+#borda16{
+   flex: 1;
+   width: 15%;
+   height: 10vh;
+   border: 6px inset rgb(236, 110, 26);
+}
+
+#borda17{
+   flex: 1;
+   width: 15%;
+   height: 10vh;
+   border: 6px solid rgb(230, 19, 149);
+}
+#borda18{
+   flex: 1;
+   width: 15%;
+   height: 10vh;
+   border: 6px ridge rgb(11, 54, 184);
+}
+#borda19{
+   flex: 1;
+   width: 15%;
+   height: 10vh;
+   border: 6px double rgb(12, 247, 137);
+}
+#borda20{
+   flex: 1;
+   width: 15%;
+   height: 10vh;
+   border: 6px dashed rgb(140, 26, 233);
+   border-radius: 8px;
+}
+#borda21{
+   flex: 1;
+   width: 15%;
+   height: 10vh;
+   border: 6px dotted rgb(200, 204, 201);
+   border-radius: 10px;
+}
+#borda22{
+   flex: 1;
+   width: 15%;
+   height: 10vh;
+   border: 6px inset rgb(236, 110, 26);
+   border-radius: 12px;
+}
+
+#borda23{
+   flex: 1;
+   width: 15%;
+   height: 10vh;
+   border: 6px solid rgb(230, 19, 149);
+   border-radius: 14px;
+}
+#borda24{
+   flex: 1;
+   width: 15%;
+   height: 10vh;
+   border: 6px ridge rgb(11, 54, 184);
+   border-radius: 16px;
+}
+#borda25{
+   flex: 1;
+   width: 15%;
+   height: 10vh;
+   border: 6px double rgb(12, 247, 137);
+   border-radius: 18px;
+}
+

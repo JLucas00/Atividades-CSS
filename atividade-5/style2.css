@@ -1,0 +1,29 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+body{
+   display: flex;
+   flex-wrap: wrap;
+   width: 100vw;
+   height: 100vh;
+   justify-content: space-around;
+   background-image: url(https://i.pinimg.com/originals/2a/5b/22/2a5b22628afbd6739707961e4a9f871a.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+
+}
+.direct1{
+   writing-mode: horizontal-tb;
+   color: white;
+}
+.direct2{
+   writing-mode: vertical-lr;
+   color: white;
+}
+.direct3{
+   writing-mode: vertical-rl;
+   color: white;
+}
+
