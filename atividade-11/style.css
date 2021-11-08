@@ -18,7 +18,7 @@
 header{
    font-family: spinnaker, sans-serif;
    min-width: 100vw;
-   max-width: min-content;
+   max-width: 150vw;
    height: 65px;
    display: flex;
    align-items: center;
