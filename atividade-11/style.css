@@ -18,7 +18,6 @@
 header{
    font-family: spinnaker, sans-serif;
    min-width: 100vw;
-   max-width: 150vw;
    height: 65px;
    display: flex;
    align-items: center;
@@ -34,6 +33,7 @@ header{
    
 }
 header div{
+   font-family: initial;
    width: 25px;
    height: 30px;
    display: flex;
@@ -48,7 +48,8 @@ header div{
 
 body{
    background-image: url(background.webp);
-   width: 100vw;
+   min-width: 100vw;
+   max-width: min-content;
    color: #555555;
 }
 main{
@@ -88,7 +89,7 @@ nav ul li a:hover{
 }
 
 main{
-   width: 100vw;
+   width: 100%;
    margin-top: 0px;
    padding-top: 70px;
    background-color: rgba(78, 75, 75, 10%);
@@ -101,21 +102,41 @@ main{
    display: flex;
    align-items: center;
    justify-content: flex-end;
+   font-size: 1.3rem;
 
+}
+.text-main-image{
+   width: 240px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin-left: 10px;
+}
+#text-main1{
+   letter-spacing: 0.25rem;
+}
+#text-main2{
+   letter-spacing: 0.1rem;
+}
+#text-elas-eles{
+   font-size: 1.7rem;
+   letter-spacing: 0.2rem;
 }
 h2{
    margin-top: 90px;
    margin-bottom: 40px;
 }
 #collection{
-display: flex;
-flex-direction: row;
-list-style: none;
-gap: 20px;
+   display: flex;
+   flex-direction: row;
+   list-style: none;
+   gap: 20px;
 }
 .collection-price{
    font-family: din-light;
    padding-top: 20px;
+   padding-left: 12px;
    width: 210px;
    height: 120px;
    color: #494949;
@@ -159,6 +180,10 @@ gap: 20px;
 }
 #image-4:hover{
    background-image: url(pijama4-4.webp);
+}
+.side-arrows{
+   display: flex;
+   justify-content: center;
 }
 #section-icons{
    width: 950px;
