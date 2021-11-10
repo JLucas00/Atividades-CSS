@@ -1,0 +1,200 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+@font-face {
+   font-family: Raleway-light;
+   src: url(Raleway-Light.ttf);
+}
+@font-face {
+   font-family: Oswald-medium;
+   src: url(Oswald-Medium.ttf);
+}
+body{
+   width: min-content;
+}
+header{
+   width: 100%;
+   min-height: 125px;
+   max-height: min-content;
+   padding: 20px 20px 20px 20px;
+   background-color: rgb(0,7,105);
+}
+#logo{
+   width: 300px;
+   display: flex;
+   margin-left: 80px;
+   margin-right: 80px;
+   align-items: center;
+   font-family: Oswald-medium, sans-serif;
+   font-weight: bold;
+   font-size: 1.8;
+}
+header nav{
+   color: rgb(255,255,255);
+   display: flex;
+   flex-wrap: nowrap;
+   padding-right: 5vw;
+   justify-content: space-between;
+   font-family: Raleway-light, sans-serif;
+}
+header nav ul{
+   list-style: none;
+}
+#itens-nav{
+   display: flex;
+   align-items: center;
+   justify-content: flex-end;
+   list-style: none;
+}
+header nav ul li{
+margin: 4%;
+}
+main{
+   display: flex;
+   flex-direction: column;
+   background-color: rgb(255,255,255);
+   justify-content: center;
+   align-items: center;
+   min-width: 100%;
+   max-width: min-content;
+   padding: 6vw;
+   min-height: min-content;
+   font-family: Raleway-light, sans-serif;
+}
+main section video{
+   width: 88vw;
+}
+div[class="text-video"] h2{
+   font-family: Oswald-medium, sans-serif;
+   font-weight: bold;
+   font-size: 3.5rem;
+   letter-spacing: 0.05rem;
+}
+#video{
+   width: 88vw;
+   min-height: 100px;
+}
+.text-video{
+   width: 40vw;
+   color: rgb(255,255,255);
+   margin: 15vw 0px 0px 24vw;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   position: absolute;
+   text-align: center;
+
+}
+#buton1{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 144px;
+   height: 45px;
+   margin-top: 5vw;
+   background-color: rgb(252,152,35);
+   color: black;
+}
+#buton2{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 110px;
+   height: 45px;
+   margin-top: 100px;
+   background-color: rgb(252,152,35);
+   color: black;
+}
+#imagens{
+   width: 88vw;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: nowrap;
+   gap: 25px;
+   margin-top: 70px;
+}
+.item-imagem{
+   width: calc((88vw - 50px)/3);
+}
+#conteudo-texto{
+   width: 700px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+}
+#conteudo-texto h3{
+   margin: 50px 0 50px 0;
+}
+div[id="conteudo-texto"] h2{
+   font-family: Oswald-medium, sans-serif;
+   font-weight: bold;
+   font-size: 74px;
+   font-stretch: semi-condensed;
+   color: rgb(252,152,35);
+}
+#centralizar-texto{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 150px 0 80px 0;
+}
+
+footer{
+   height: 260px;
+   width: 100%;
+}
+#contato{
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   height: 215px;
+   background-color: rgb(0,7,105);
+   color: rgb(255,255,255);
+}
+#copyright{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   height: 45px;
+   background-color: rgb(228,228,228);
+   font-family: Raleway-light, sans-serif;
+   font-size: 0.8rem;
+   font-weight: 100;
+   color: rgb(54, 54, 54);
+}
+footer section[id="contato"]{
+   padding: 0 170px 0 170px;
+}
+footer section[id="contato"] div{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   line-height: 30px;
+}
+#icons-footer{
+   display: flex;
+   flex-direction: row;
+}
+
+#icons-header{
+   display: flex;
+   flex-direction: row;
+}
+.icons-header img{
+   height: 20px;
+   width: 20px;
+   margin: 0px 5px 0 5px;
+
+}
+.icons-footer img{
+   height: 20px;
+   margin: 50px 5px 0 5px;
+
+}

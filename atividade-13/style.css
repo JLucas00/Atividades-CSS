@@ -1,0 +1,331 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+:root{
+   --cor-header-e-footer:rgb(54,46,38);
+   --cor-branca: rgb(255,255,255);
+}
+@font-face {
+   font-family: "din-light";
+   src: url(din-light.otf);
+}
+@font-face {
+   font-family: "cookie";
+   src: url(Cookie-Regular.ttf);
+}
+@font-face {
+   font-family: "helvetica-w01-roman";
+   src: url(Helvetica-W01-Roman.woff);
+}
+@font-face {
+   font-family: "proxima-nova";
+   src: url(Proxima-Nova.ttf);
+}
+body{
+   width: 100vw;
+   overflow-x: hidden;
+}
+
+header{
+   display: flex;
+   width: 100vw;
+   height: 54px;
+   justify-content: space-around;
+   align-items: center;
+   padding: 0 25vw 0 25vw;
+   background-color: var(--cor-header-e-footer);
+   color: var(--cor-branca);
+   position: fixed;
+   font-family: "helvetica-w01-roman", sans-serif;
+   font-size: 1.35rem;
+}
+header h6 a{
+   color: var(--cor-branca);
+   text-decoration: none;
+}
+header h6 a:hover{
+   color: rgb(187, 184, 184);
+}
+img[src="images/vector1.svg"]{
+   width: 139px;
+}
+img[src="images/vector2.svg"]{
+   width: 139px;
+}
+img[src="images/brigadeiro-amarelo.webp"]{
+   width: 190px;
+
+}
+img[src="images/brigadeiro-vermelho.webp"]{
+   width: 190px;
+}
+img[src="images/brigadeiro-azul.webp"]{
+   width: 190px;
+
+}
+#section1{
+   padding-top: 54px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   width: 100vw;
+   height: 100vh;
+   background-image: url(images/image-principal.webp);
+   background-attachment: fixed;
+   background-color: rgba(145, 110, 110, 100%);
+   background-size: cover;
+   color: var(--cor-branca);
+}
+
+#section1 h1{
+   font-family: "cookie", cursive;
+   font-size: 8rem;
+}
+
+#section1 h2{
+   font-family: "proxima-nova", sans-serif;
+   font-weight: lighter;
+   letter-spacing: 7px;
+   font-size: 1.5rem;
+   margin-bottom: 20px;
+}
+#section2{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 100vw;
+   height: 460px;
+   background-image: url(images/background-brigadeiro.webp);
+   background-attachment: fixed;
+   background-color: rgba(216, 78, 78,68%);
+   color: var(--cor-branca);
+}
+#section2 div:nth-child(1){
+   width: 254px;
+   margin-right: 50px;
+   font-size: 1.4rem;
+   text-align: center;
+   font-family: "proxima-nova", sans-serif;
+}
+#section2 div:nth-child(2){
+   width: 548px;
+   margin-left: 50px;
+   font-size: 0.95rem;
+   font-family: helvetica-w01-roman, sans-serif;
+}
+#section3{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-evenly;
+   height: 660px;
+   padding: 80px 0 80px 0;
+   background-color: var(--cor-branca);
+}
+#section3 div:nth-child(1){
+   width: 744px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   text-align: center;
+}
+#section3 div:nth-child(2){
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   flex-wrap: wrap;
+   width: 744px;
+}
+#section3 h3{
+   font-family: "proxima-nova", sans-serif;
+   font-size: 1.5rem;
+   letter-spacing: 3px;
+   font-weight: 500;
+   padding-bottom: 10px;
+}
+#section3 p{
+   font-family: "helvetica-w01-roman", sans-serif;
+   font-size: 0.8;
+}
+
+#section4{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 100vw;
+   height: 660px;
+   background-image: url(images/background-listra.webp);
+   background-attachment: fixed;
+   background-repeat: repeat;
+   background-color: rgba(96, 173, 177, 0.85);
+   color: var(--cor-branca);
+}
+#section4 div:nth-child(1){
+ width: 395px;
+ margin-right: 50px;
+ font-family: "proxima-nova", sans-serif;
+ font-size: 1.1rem;
+}
+#section4 div:nth-child(2){
+   width: 450px;
+   height: 450px;
+   margin-left: 50px;
+   font-family: "helvetica-w01-roman", sans-serif;
+}
+img[src="images/image-mulher.webp"]{
+   width: 450px;
+   height: 450px;
+}
+
+#section5{
+   display: flex;
+   height: 460px;
+}
+
+#section5-1{
+   display: flex;
+   flex: 1;
+   background-image: url(images/image1.webp);
+   background-repeat: repeat;
+   background-size: cover;
+}
+#section5-2{
+   display: flex;
+   flex: 1.2;
+   background-image: url(images/image2.webp);
+   background-repeat: repeat;
+   background-size: cover;
+}
+#section5-3{
+   display: flex;
+   flex: 1;
+   background-image: url(images/image3.webp);
+   background-repeat: repeat;
+   background-size: cover;
+}
+footer{
+   height: 500px;
+   background-color: var(--cor-header-e-footer);
+}
+#contato{
+   height: 400px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   color: var(--cor-branca);
+}
+#contato1{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content:space-between;
+   width: 228px;
+   height: 232px;
+   text-align: center;
+}
+#contato1 h3{
+   font-family: "proxima-nova", sans-serif;
+   font-size: 1.6rem;
+   letter-spacing: 2px;
+}
+#contato1 p{
+   font-family: "helvetica-w01-roman", sans-serif;
+   font-size: .9rem;
+   letter-spacing: 0px;
+   font-weight: bold;
+}
+
+#contato2{
+   height: 70%;
+   width: 487px;
+   margin-left: 110px;
+   position: relative;
+}
+#contato2 button{
+   position:absolute;
+   right: 0;
+   bottom: 0;
+   width: 89px;
+   height: 38px;
+   box-shadow: inset 0px  19px 0px 0px rgb(131,118,105);
+   background-color: rgb(101,86,72);
+   color: var(--cor-branca);
+   font-weight: bold;
+   border-width: 0.1;
+   font-family: "helvetica-w01-roman", sans-serif;
+}
+#nome{
+   width: 100%;
+   height: 30px;
+   border: none;
+   border-radius: 0;
+   margin-bottom: 7px;
+   background-color: rgb(81,69,57);
+   padding-left: 20px;
+   color: var(--cor-branca);
+   font-weight: bold;
+}
+#email{
+   width: 100%;
+   height: 30px;
+   border: none;
+   border-radius: 0;
+   margin-bottom: 7px;
+   background-color: rgb(81,69,57);
+   padding-left: 20px;
+   color: var(--cor-branca);
+   font-weight: bold;
+}
+#tel{
+   width: 100%;
+   height: 30px;
+   border: none;
+   border-radius: 0;
+   margin-bottom: 7px;
+   background-color: rgb(81,69,57);
+   padding-left: 20px;
+   color: var(--cor-branca);
+   font-weight: bold;
+}
+#mensagem{
+   width: 100%;
+   height: 121px;
+   border: none;
+   border-radius: 0;
+   margin-bottom: 7px;
+   background-color: rgb(81,69,57);
+   padding-left: 20px;
+   padding-bottom: 80px;
+   color: var(--cor-branca);
+   font-weight: bold;
+}
+#nome:hover, #email:hover, #tel:hover, #mensagem:hover{
+   border: var(--cor-branca);
+   border-radius: 0;
+}
+::placeholder{
+   color: var(--cor-branca);
+   font-weight: bold;
+   font-family: "helvetica-w01-roman", sans-serif;
+}
+#icons{
+   width: 70%;
+   display: flex;
+   justify-content: center;
+   margin-bottom: 10px;
+}
+#icons img{
+   margin: 5px;
+   width: 26px;
+}
+#copyright{
+   height: 100px;
+   display: flex;
+   padding: 15px;
+   justify-content: center;
+   border-top: 0.5px solid rgb(121,111,102);
+   color: rgb(121,111,102);
+}
