@@ -82,7 +82,10 @@ img[src="images/brigadeiro-azul.webp"]{
 
 #section1 h1{
    font-family: "cookie", cursive;
-   font-size: 8rem;
+   font-size: 10rem;
+   font-style: italic;
+   letter-spacing: 10px;
+   font-weight: 500;
 }
 
 #section1 h2{
