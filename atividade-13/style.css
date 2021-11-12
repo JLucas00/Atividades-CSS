@@ -257,8 +257,11 @@ footer{
    background-color: rgb(101,86,72);
    color: var(--cor-branca);
    font-weight: bold;
-   border-width: 0.1;
+   
    font-family: "helvetica-w01-roman", sans-serif;
+}
+button:active{
+   border: 1px solid white;
 }
 #nome{
    width: 100%;
@@ -270,6 +273,7 @@ footer{
    padding-left: 20px;
    color: var(--cor-branca);
    font-weight: bold;
+   outline: none;
 }
 #email{
    width: 100%;
@@ -308,6 +312,8 @@ footer{
 #nome:hover, #email:hover, #tel:hover, #mensagem:hover{
    border: var(--cor-branca);
    border-radius: 0;
+   border: 1px solid red;
+   box-sizing: border-box;
 }
 ::placeholder{
    color: var(--cor-branca);
